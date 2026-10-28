@@ -1,0 +1,182 @@
+:root {
+  /* Theme tokens — Light */
+  --c-forest-50: 240 253 247;
+  --c-forest-100: 220 252 231;
+  --c-forest-200: 187 247 208;
+  --c-forest-300: 134 239 172;
+  --c-forest-400: 74 222 128;
+  --c-forest-500: 34 197 94;
+  --c-forest-600: 0 184 110;
+  --c-forest-700: 0 122 74;
+  --c-forest-800: 6 95 70;
+  --c-forest-900: 15 26 20;
+
+  /* Legacy rose utilities now resolve to semantic red (down/expense), never pink. */
+  --c-rose-50: 255 241 242;
+  --c-rose-100: 255 228 230;
+  --c-rose-200: 254 205 211;
+  --c-rose-300: 253 164 175;
+  --c-rose-400: 251 113 133;
+  --c-rose-500: 214 51 79;
+  --c-rose-600: 201 45 70;
+  --c-rose-700: 169 30 54;
+
+  /* Legacy lilac utilities are mapped to green tints for compatibility. */
+  --c-lilac-50: 240 253 247;
+  --c-lilac-100: 220 252 231;
+  --c-lilac-400: 110 231 183;
+  --c-lilac-600: 0 122 74;
+  --c-lilac-700: 0 95 58;
+
+  --c-yellow-50: 255 247 214;
+  --c-yellow-100: 255 236 176;
+  --c-yellow-500: 242 169 0;
+  --c-yellow-700: 90 74 18;
+
+  /* Legacy orange utilities become neutral/warning tones. */
+  --c-orange-50: 244 245 246;
+  --c-orange-100: 228 230 232;
+  --c-orange-500: 242 169 0;
+
+  --c-cream: 244 245 246;
+  --c-surface: 255 255 255;
+  --c-border: 228 230 232;
+  --c-charcoal: 15 26 20;
+  --c-muted: 107 114 128;
+  --c-shadow: 15 26 20;
+  --c-accent: 0 184 110;
+  --c-accent-ink: 4 19 12;
+  --c-accent-text: 0 122 74;
+  --c-up: 0 122 74;
+  --c-down: 214 51 79;
+  --c-warn: 242 169 0;
+  --shadow-pop: 0 4px 16px rgba(0, 184, 110, 0.45);
+  --shadow-nav: 0 6px 24px rgba(0, 0, 0, 0.08);
+
+  /* Chart and calculator tokens used by existing UI. */
+  --chart-axis: #6B7280;
+  --chart-grid: rgba(15, 26, 20, 0.10);
+  --chart-1: #0F9D6B;
+  --chart-2: #FFC815;
+  --chart-3: #6EE7B7;
+  --chart-4: #9CA3AF;
+  --chart-5: #4B5563;
+  --chart-6: #007A4A;
+  --chart-7: #D6334F;
+  --chart-8: #00B86E;
+  --chart-income: #00C27A;
+  --chart-expense: #D6334F;
+  --chart-saving: #F2A900;
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Theme tokens — Dark */
+
+html.dark {
+  --c-forest-50: 10 33 23;
+  --c-forest-100: 11 54 37;
+  --c-forest-200: 12 85 58;
+  --c-forest-300: 0 154 92;
+  --c-forest-400: 0 194 122;
+  --c-forest-500: 0 224 138;
+  --c-forest-600: 0 224 138;
+  --c-forest-700: 92 240 176;
+  --c-forest-800: 184 245 216;
+  --c-forest-900: 242 242 244;
+
+  /* Semantic red remains red in Dark mode. */
+  --c-rose-50: 53 23 29;
+  --c-rose-100: 75 28 38;
+  --c-rose-200: 122 36 52;
+  --c-rose-300: 255 92 122;
+  --c-rose-400: 255 92 122;
+  --c-rose-500: 255 92 122;
+  --c-rose-600: 255 92 122;
+  --c-rose-700: 255 92 122;
+
+  --c-lilac-50: 16 39 29;
+  --c-lilac-100: 23 61 44;
+  --c-lilac-400: 110 231 183;
+  --c-lilac-600: 92 240 176;
+  --c-lilac-700: 184 245 216;
+
+  --c-yellow-50: 61 49 9;
+  --c-yellow-100: 87 67 11;
+  --c-yellow-500: 255 200 21;
+  --c-yellow-700: 255 200 21;
+
+  --c-orange-50: 19 19 22;
+  --c-orange-100: 37 37 44;
+  --c-orange-500: 255 200 21;
+
+  --c-cream: 10 10 12;
+  --c-surface: 19 19 22;
+  --c-border: 37 37 44;
+  --c-charcoal: 242 242 244;
+  --c-muted: 154 154 165;
+  --c-shadow: 0 0 0;
+  --c-accent: 0 224 138;
+  --c-accent-ink: 4 19 12;
+  --c-accent-text: 92 240 176;
+  --c-up: 0 224 138;
+  --c-down: 255 92 122;
+  --c-warn: 255 200 21;
+  --shadow-pop: 0 0 24px rgba(0, 224, 138, 0.7);
+  --shadow-nav: 0 12px 32px rgba(0, 0, 0, 0.45);
+
+  --chart-axis: #9A9AA5;
+  --chart-grid: rgba(255, 255, 255, 0.12);
+  --chart-1: #0F9D6B;
+  --chart-2: #FFC815;
+  --chart-3: #6EE7B7;
+  --chart-4: #9CA3AF;
+  --chart-5: #4B5563;
+  --chart-6: #5CF0B0;
+  --chart-7: #FF5C7A;
+  --chart-8: #00E08A;
+  --chart-income: #00C27A;
+  --chart-expense: #FF5C7A;
+  --chart-saving: #F2A900;
+
+
+
+
+
+
+
+
+
+
+
+
+}
+html.dark body{background:rgb(var(--c-cream))}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:rgb(var(--c-cream));color:rgb(var(--c-charcoal));font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+input,select,textarea,button{font-family:inherit}
+input,select,textarea{background:rgb(var(--c-surface));color:rgb(var(--c-charcoal))}
+.print-only{display:none}
+@media print{
+  @page{margin:14mm}
+  body{background:#fff}
+  .no-print{display:none!important}
+  .print-only{display:block!important}
+  .wp-calc-grid{display:block!important}
+  .wp-calc-grid>div{position:static!important;margin-bottom:12px}
+  .wp-calc-card{break-inside:avoid;box-shadow:none!important}
+  input[type=range]{display:none}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
